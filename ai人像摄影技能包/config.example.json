@@ -1,0 +1,28 @@
+{
+  "vision": {
+    "agent_can_see": false,
+    "host": "https://grsai.dakka.com.cn",
+    "key": "把你的key填在这里",
+    "model": "gemini-2.5-pro"
+  },
+  "vision_judge": {
+    "enabled": false,
+    "host": "https://兼容OpenAI Chat Completions的视觉接口",
+    "key": "sk-xxx",
+    "model": "任意可看图模型",
+    "hard_gate_enabled": false,
+    "calibration_file": "../人脸自动相似替换/thresholds.json",
+    "calibration": {
+      "status": "uncalibrated",
+      "sample_count": 0
+    }
+  },
+  "generate": {
+    "mode": "chat",
+    "host": "https://grsai.dakka.com.cn",
+    "key": "把你的key填在这里",
+    "model": "nano-banana-2",
+    "draw_model": "gpt-image-2",
+    "out_dir": "出图"
+  }
+}

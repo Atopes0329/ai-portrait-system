@@ -1,0 +1,35 @@
+# 本机配置与凭据
+.env
+.env.*
+config.json
+config.local.json
+本地设置.json
+thresholds.json
+*.pem
+*.key
+
+# 人物资料和运行产物
+任务输出/
+特征库/
+出图/
+示例/
+实验/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.heic
+*.tiff
+*.npy
+*.npz
+*.log
+
+# 权重与本地构建文件
+*.onnx
+*.onnx.part
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+tasks/
+DISTRIBUTION_AUDIT.json

@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "status": "uncalibrated",
+  "model_version": "填写本机模型版本",
+  "sample_count": 0,
+  "metrics": {},
+  "hard_gate_eligible": false,
+  "warning": "没有真人标注样本时，不得把模型原始分解释成人类识别概率。"
+}
